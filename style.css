@@ -1,12 +1,20 @@
 html{
-    background-color: rgb(97, 94, 94);
+    background-image: url(planets-life-orig.jpg);
+    background-size: cover;
 }
-body{
-    text-align: center;
-    margin-top: 100px;
-    background-color: greenyellow;
-}
-a{
+.navbar{
+    background-color: white;
+    font-size: 50px;
     text-align: center;
     color: purple;
+}
+.menu{
+    float: right;
+    margin-right: 100px;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
 }
